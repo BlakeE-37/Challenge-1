@@ -1,5 +1,22 @@
 # 01 HTML, CSS, and Git: Code Refactor
 
+## Project Description
+
+This project was a support ticket challenge that required me to 
+take the code for this website and make it more accessable.  
+
+To do this I did the following:
+
+* Added Comments to the code to make it more understandable for other developers
+
+* Changed most `<Div>` tags to better represent the page and what the HTML was accomplishing
+
+* Added `alt` tags to images for better accessibility
+
+* Rearanged some CSS selectors to make it more unifrom
+
+You can view the completed website hosted on GitHub Pages [here](https://blakee-37.github.io/Challenge-1/Develop/)
+
 ## Challenges in This Course
 
 There are two types of Challenges in this course. Each one is designed to prepare you for a scenario that you're likely to encounter as a web developer.
