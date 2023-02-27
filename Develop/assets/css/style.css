@@ -47,6 +47,7 @@ p {
     font-size: 16px;
 }
 
+/* hero image styling and background-image link */
 .hero {
     height: 800px;
     width: 100%;
@@ -83,18 +84,19 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* benefit class - aside section - controling headings, text, and images */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+}
+
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .benefit-lead img,
@@ -103,6 +105,14 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}
+
+/* main section's - controling heading, text, and images */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .search-engine-optimization,
@@ -122,11 +132,9 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+/* footer class, holding copyright */
+.footer h2 {
+    font-size: 20px;
 }
 
 .footer {
@@ -134,8 +142,4 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
